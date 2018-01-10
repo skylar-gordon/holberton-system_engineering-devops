@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -h betty _hello && chgrp -h holberton _hello\
+sudo chown -h betty _hello && chgrp -h holberton _hello\

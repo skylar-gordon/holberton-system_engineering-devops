@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp holberton * && chown betty *\
+sudo chgrp holberton * && chown betty *\
