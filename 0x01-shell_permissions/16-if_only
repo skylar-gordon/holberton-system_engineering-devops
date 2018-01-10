@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo file -iname hello -user guillaume -exec chown betty {} \;
+find -iname hello -user guillaume -exec chown betty {} +
