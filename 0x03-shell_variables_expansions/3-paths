@@ -1,2 +1,4 @@
 #!/bin/bash
-echo $PATH | tr : ':\' | wc -l \
+count=$(printf "%s\n" $PATH | tr -cd : | wc -c) 
+count=$((count+1))  
+echo $count 
